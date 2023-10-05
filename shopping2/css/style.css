@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+.item {
+    margin-top: 16px;
+    font-size: 15px;
+    color: #000;
+    background-color: orange;
+}
+.img-item {
+    background-color: #3A5A98;
+    height: 50px;
+}
+.item-child {
+
+    margin-top:16px;
+    background-color: #3A5A98;
+    height: 60px;
+    text-align: center;
+    line-height: 25px;
+}
+.price-phone {
+    font-size: 15px;
+}
+.cart{
+    width: 380px;
+    height: 380px;
+
+}
+.button-cart-1{
+    color: #fff;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+}
+.button-cart-2{
+    color: #fff;
+    margin-top: 16px;
+    width: 100%;
+    height: 40px;
+    background-color: #2786ec;
+
+}
+.form-control{
+    width: 100%;
+}
+@media (max-width: 739px) {
+    .row {
+        justify-content: space-around;
+    }
+}
